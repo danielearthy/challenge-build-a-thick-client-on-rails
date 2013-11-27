@@ -1,0 +1,4 @@
+<h1>Choose a quiz<h1>
+<% @quizzes.each do |quiz|%>
+  <%=link_to quiz.name, quiz%>
+<%end%>
